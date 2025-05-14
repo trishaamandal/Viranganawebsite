@@ -16,8 +16,8 @@ const Login = () => {
   const isToken = authState?.token;
 
   const guestUserData = {
-    email: "vishal@gmail.com",
-    password: "vishal1234",
+    email: "trishamandal123@gmail.com",
+    password: "trish1234",
   };
 
   const handleLogin = () => {
