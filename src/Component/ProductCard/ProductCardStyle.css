@@ -1,0 +1,128 @@
+.product-card {
+  width: 320px;
+  border: 1px solid var(--text-tertiary-color);
+  position: relative;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.product-card:hover {
+  border: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+.product-card-top {
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+}
+.pc-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-card-top button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-size: 1.4rem;
+  margin-right: 0.25rem;
+  margin-left: auto;
+  color: #64748b;
+}
+.product-card-top .wishlist {
+  color: var(--primary-color);
+}
+.product-card-top .wishlist-disabled {
+  color: #d1d7dc;
+}
+.product-card-top p {
+  font-size: 0.8rem;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.product-card img {
+  width: 100%;
+  height: 200px;
+  padding: 0.5rem 0;
+  object-fit: contain;
+  display: block;
+  background-color: white;
+}
+.product-body {
+  padding: 0.25rem;
+}
+.product-brand-review {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.25rem 0;
+  font-size: 0.9rem;
+}
+.product-brand {
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #64748b;
+}
+.product-review {
+  color: #64748b;
+}
+.starIcon {
+  font-size: 1.2rem;
+  color: #fbbf24;
+  margin-right: 0.25rem;
+}
+.product-body .product-name {
+  font-size: 1rem;
+  line-height: 1.5;
+  height: 3rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Limit the content to two lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.product-price {
+  font-size: 0.9rem;
+  padding: 0.5rem 0;
+  color: #64748b;
+}
+.product-cart-btn {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 0.5rem 0;
+  border-radius: 0.75rem;
+}
+.product-cart-btn .cart-disabled {
+  background-color: #7d8896;
+}
+.cartIcon {
+  font-size: 1.2rem;
+}
+.product-cart-btn .product-cart-btn p {
+  gap: 0.5rem;
+}
+@media (min-width: 768px) {
+  .product-card {
+    padding: 0.5rem;
+    border-radius: 1rem;
+  }
+
+  .product-card img {
+    height: 250px;
+    padding: 1rem 0;
+  }
+  .product-body {
+    padding: 0.5rem;
+  }
+  .product-brand-review {
+    padding: 0.5rem 0;
+  }
+
+  .product-cart-btn {
+    border-radius: 2.5rem;
+  }
+}
