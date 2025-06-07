@@ -1,6 +1,3 @@
-# Minute - Ecommerce Web App for Watches
-
-Welcome to Minute, a user-friendly ecommerce web app designed specifically for watch enthusiasts. With Minute, you can explore and purchase a wide range of watches, including luxury, sport, and smart watches. This README file provides an overview of the app's features and functionality.
 
 ## How to install and run locally?
 
@@ -53,12 +50,4 @@ To install and run Minute on your local machine, follow these steps:
 - MockBee for backend
 - Razorpay Payment Gateway
 
-## DEMO
 
-https://github.com/vishalsinghrawat29/minute/assets/56162449/e42dce2b-5105-49b5-9a11-44509a31c8bd
-
-## Contact
-
-If you have any suggestions, questions, or feedback, please feel free to contact me at vsrawat2906@gmail.com .
-
-Thank you for using Minute - watch store. We wish you have a wonderful shopping experience!
