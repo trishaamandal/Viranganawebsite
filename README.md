@@ -5,7 +5,7 @@ To install and run Minute on your local machine, follow these steps:
 
 1. Clone the repository:
    ```
-   $ git clone https://github.com/vishalsinghrawat29/minute.git
+   $ git clone https://github.com/trishaamandal/Viranganawebsite
    ```
 2. Navigate to the project directory:
    ```
