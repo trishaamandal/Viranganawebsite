@@ -9,7 +9,7 @@ To install and run Minute on your local machine, follow these steps:
    ```
 2. Navigate to the project directory:
    ```
-   $ cd minute
+   $ cd Viranganawebsite
    ```
 3. Install the required dependencies:
    ```
